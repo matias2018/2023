@@ -1,0 +1,171 @@
+/*==================
+    Base Styles
+===================*/
+
+input[type='radio'] {
+	display: none;
+}
+
+.slider {
+	background: #fff;
+	position: relative;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;
+	height: 380px;
+	width: 480px;
+	padding: 2em;
+	box-shadow: 0px 1px 2px 0px rgb(53, 53, 53);
+}
+
+.slider_text {
+	background: #fff !important;
+	color: #000 !important;
+}
+
+.slide-wrapper {
+	position: relative;
+	margin: 0 auto;
+	padding: 3em;
+	width: 90%;
+	height: 90%;
+	overflow: hidden;
+}
+
+/*==================
+  Slides
+===================*/
+
+#slide-role {
+	background: inherit;
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 400%;
+	height: 100%;
+	z-index: 10;
+	transition: left 0.5s cubic-bezier(0.455, 0.03, 0.515, 0.955);
+	/* flex */
+	display: flex;
+}
+
+#slide-role.active {
+	cursor: grab;
+	background: red;
+}
+
+.slide {
+	width: 50%;
+	height: 100%;
+	background-size: cover;
+	background-position: center;
+}
+
+/*===================
+  BUTTONS
+====================*/
+
+.slider-btn,
+.slider-btn::after {
+	transition: all 0.5s cubic-bezier(0.785, 0.135, 0.15, 0.86);
+}
+
+.slider-btn {
+	border: 1px solid #000;
+	background: rgb(255, 255, 255);
+	position: absolute;
+	bottom: 90px;
+	width: 15px;
+	height: 15px;
+	cursor: pointer;
+	z-index: 11;
+}
+
+.slider-btn:nth-of-type(1) {
+	left: calc(48% + 5%);
+}
+
+.slider-btn:nth-of-type(2) {
+	left: calc(55% + 5%);
+}
+
+.slider-btn:nth-of-type(3) {
+	left: calc(62% + 5%);
+}
+
+.slider-btn:nth-of-type(4) {
+	left: calc(69% + 5%);
+}
+
+.slider-btn:hover {
+	transform: scale(1.4);
+}
+
+/* buttons Atom! */
+
+.slider-btn::after {
+	content: '';
+	display: inline-block;
+	background: #000;
+	width: 1px;
+	height: 1px;
+	transform: scale(0, 0);
+	margin: 0 0 11px 6px;
+}
+
+/*====================
+      L O G I C 
+===================*/
+
+/* slide logic */
+
+input[type='radio']:checked#slide-2-trigger
+	~ div.slide-wrapper
+	> div#slide-role {
+	left: -100%;
+}
+
+input[type='radio']:checked#slide-3-trigger
+	~ div.slide-wrapper
+	> div#slide-role {
+	left: -200%;
+}
+
+input[type='radio']:checked#slide-4-trigger
+	~ div.slide-wrapper
+	> div#slide-role {
+	left: -300%;
+}
+
+/* button logic */
+
+input[type='radio']:checked + label.slider-btn {
+	border: 1px solid rgba(53, 53, 53, 0.308);
+}
+
+input[type='radio']:checked + label.slider-btn::after {
+	transform: scale(15, 15);
+	background: #000;
+}
+
+/*=====================================================================================
+              MEDIA QUERIES
+=======================================================================================*/
+@media screen and (max-width: 920px) {
+	.slider {
+		width: 100%;
+	}
+	.slide h3 {
+		font-size: 14px;
+	}
+}
+@media only screen and (max-width: 750px) {
+	.slide-wrapper {
+		width: 90%;
+		height: 100%;
+	}
+
+	.slider-btn {
+		bottom: 60px;
+	}
+}

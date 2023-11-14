@@ -1,0 +1,52 @@
+How to enqueue scripts in WordPress from CDN?
+
+CSS
+
+wp_register_style( 'Font_Awesome', 'https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css' );
+wp_enqueue_style('Font_Awesome');
+
+
+
+JS
+
+wp_register_script( 'jQuery', 'https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js', null, null, true );
+wp_enqueue_script('jQuery');
+
+
+
+Your case
+
+wp_register_script( 'jQuery', 'https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js', null, null, true );
+wp_enqueue_script('jQuery');
+wp_register_script( 'TweenMax', 'https://cdnjs.cloudflare.com/ajax/libs/gsap/1.18.2/TweenMax.min.js', null, null, true );
+wp_enqueue_script('TweenMax');
+wp_register_script( 'Slick', 'https://cdn.jsdelivr.net/jquery.slick/1.5.9/slick.min.js', null, null, true );
+wp_enqueue_script('Slick');
+
+animejs:
+git:
+https://github.com/juliangarnier/anime
+
+cdn :
+https://cdnjs.cloudflare.com/ajax/libs/animejs/3.2.1/anime.min.js
+
+docs:
+https://animejs.com/documentation/
+
+scrollMagic:
+docs: 
+https://scrollmagic.io/docs/index.html
+
+https://github.com/janpaepke/ScrollMagic/wiki/Getting-Started-:-First-Steps
+
+http://scrollmagic.io/docs/ScrollMagic.Scene.html#constructor
+
+caalculator - http://scrollmagic.io/examples/basic/scene_manipulation.html
+
+cdn: https://cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.7/ScrollMagic.min.js
+
+https://cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.7/plugins/debug.addIndicators.min.js
+
+
+JUST THE LOGO IMAGE INSIDE THE <a> tag on navbar
+<img src="<?php echo get_template_directory_uri(); ?>/images/real/logos/logo.svg" alt="<?php bloginfo('name'); ?>" class="logo">

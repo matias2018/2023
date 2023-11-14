@@ -1,0 +1,50 @@
+.ndd-modal.opened {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 1);
+  color: #fff;
+  text-align: center;
+  z-index: 99999;
+  transition: all 0.3s;
+}
+
+.close {
+  position: fixed;
+  top: 10px;
+  right: 10px;
+  cursor: pointer;
+  font-size: 50px;
+}
+
+.embed-container {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-bottom: 56.25%;
+  overflow: hidden;
+  max-width: 100%;
+  height: auto;
+}
+
+.embed-container,
+.embed-container iframe,
+.embed-container object,
+.embed-container embed {
+  position: absolute;
+  top: 100px;
+  left: 50px;
+  width: calc(100% - 200px);
+  height: calc(100% - 400px);
+  margin: auto;
+  display: none;
+}
+
+div.ytp-share-icon,
+.ytp-wacth-later-icon,
+.ytp-button {
+  display: none !important;
+}

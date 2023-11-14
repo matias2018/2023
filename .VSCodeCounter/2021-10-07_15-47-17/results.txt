@@ -1,0 +1,51 @@
+Date : 2021-10-07 15:47:17
+Directory : c:\Users\pvmat\Local Sites\nddbase\app\public\wp-content\themes\nddbase
+Total : 21 files,  1587 codes, 141 comments, 282 blanks, all 2010 lines
+
+Languages
++------------+------------+------------+------------+------------+------------+
+| language   | files      | code       | comment    | blank      | total      |
++------------+------------+------------+------------+------------+------------+
+| CSS        |          5 |      1,009 |        132 |        198 |      1,339 |
+| PHP        |         11 |        434 |          2 |         47 |        483 |
+| JavaScript |          3 |         96 |          7 |         27 |        130 |
+| SCSS       |          1 |         44 |          0 |          8 |         52 |
+| Markdown   |          1 |          4 |          0 |          2 |          6 |
++------------+------------+------------+------------+------------+------------+
+
+Directories
++-----------------------------------------------------------------------------------------------+------------+------------+------------+------------+------------+
+| path                                                                                          | files      | code       | comment    | blank      | total      |
++-----------------------------------------------------------------------------------------------+------------+------------+------------+------------+------------+
+| .                                                                                             |         21 |      1,587 |        141 |        282 |      2,010 |
+| css                                                                                           |          5 |      1,052 |        113 |        204 |      1,369 |
+| js                                                                                            |          3 |         96 |          7 |         27 |        130 |
++-----------------------------------------------------------------------------------------------+------------+------------+------------+------------+------------+
+
+Files
++-----------------------------------------------------------------------------------------------+------------+------------+------------+------------+------------+
+| filename                                                                                      | language   | code       | comment    | blank      | total      |
++-----------------------------------------------------------------------------------------------+------------+------------+------------+------------+------------+
+| c:\Users\pvmat\Local Sites\nddbase\app\public\wp-content\themes\nddbase\archive-obra.php      | PHP        |         41 |          0 |          2 |         43 |
+| c:\Users\pvmat\Local Sites\nddbase\app\public\wp-content\themes\nddbase\css\nav.css           | CSS        |        214 |          3 |         35 |        252 |
+| c:\Users\pvmat\Local Sites\nddbase\app\public\wp-content\themes\nddbase\css\prof.css          | CSS        |         44 |          1 |          6 |         51 |
+| c:\Users\pvmat\Local Sites\nddbase\app\public\wp-content\themes\nddbase\css\prof.scss         | SCSS       |         44 |          0 |          8 |         52 |
+| c:\Users\pvmat\Local Sites\nddbase\app\public\wp-content\themes\nddbase\css\style.css         | CSS        |        431 |        100 |        101 |        632 |
+| c:\Users\pvmat\Local Sites\nddbase\app\public\wp-content\themes\nddbase\css\utilities.css     | CSS        |        319 |          9 |         54 |        382 |
+| c:\Users\pvmat\Local Sites\nddbase\app\public\wp-content\themes\nddbase\followalong.md        | Markdown   |          4 |          0 |          2 |          6 |
+| c:\Users\pvmat\Local Sites\nddbase\app\public\wp-content\themes\nddbase\footer.php            | PHP        |         18 |          0 |          3 |         21 |
+| c:\Users\pvmat\Local Sites\nddbase\app\public\wp-content\themes\nddbase\front-page.php        | PHP        |         75 |          0 |         12 |         87 |
+| c:\Users\pvmat\Local Sites\nddbase\app\public\wp-content\themes\nddbase\functions-dynamic.php | PHP        |         19 |          2 |          4 |         25 |
+| c:\Users\pvmat\Local Sites\nddbase\app\public\wp-content\themes\nddbase\functions.php         | PHP        |         37 |          0 |         10 |         47 |
+| c:\Users\pvmat\Local Sites\nddbase\app\public\wp-content\themes\nddbase\header.php            | PHP        |         54 |          0 |          3 |         57 |
+| c:\Users\pvmat\Local Sites\nddbase\app\public\wp-content\themes\nddbase\header_dynamic.php    | PHP        |         50 |          0 |          3 |         53 |
+| c:\Users\pvmat\Local Sites\nddbase\app\public\wp-content\themes\nddbase\index.php             | PHP        |         50 |          0 |          2 |         52 |
+| c:\Users\pvmat\Local Sites\nddbase\app\public\wp-content\themes\nddbase\js\accordiion.js      | JavaScript |         15 |          0 |          3 |         18 |
+| c:\Users\pvmat\Local Sites\nddbase\app\public\wp-content\themes\nddbase\js\counter.js         | JavaScript |         35 |          2 |         12 |         49 |
+| c:\Users\pvmat\Local Sites\nddbase\app\public\wp-content\themes\nddbase\js\nav.js             | JavaScript |         46 |          5 |         12 |         63 |
+| c:\Users\pvmat\Local Sites\nddbase\app\public\wp-content\themes\nddbase\page.php              | PHP        |         30 |          0 |          4 |         34 |
+| c:\Users\pvmat\Local Sites\nddbase\app\public\wp-content\themes\nddbase\single-obra.php       | PHP        |         34 |          0 |          2 |         36 |
+| c:\Users\pvmat\Local Sites\nddbase\app\public\wp-content\themes\nddbase\single.php            | PHP        |         26 |          0 |          2 |         28 |
+| c:\Users\pvmat\Local Sites\nddbase\app\public\wp-content\themes\nddbase\style.css             | CSS        |          1 |         19 |          2 |         22 |
+| Total                                                                                         |            |      1,587 |        141 |        282 |      2,010 |
++-----------------------------------------------------------------------------------------------+------------+------------+------------+------------+------------+

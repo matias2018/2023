@@ -1,0 +1,32 @@
+.cursor {
+  width: 3rem;
+  height: 3rem;
+  border: 2px solid black;
+  border-radius: 50%;
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  transform: translate(-50%, -50%);
+  z-index: 2147483647; /* max possible z-index */
+  pointer-events: none;
+  transition: all 0.23s ease;
+  transition-property: background-color, border-color, transform;
+  transform-origin: 100% 100%;
+  mix-blend-mode: difference;
+}
+
+.cursor.shiny {
+  border-color: 10px solid #fff;
+}
+
+.link-grow {
+  transform: scale(3);
+}
+
+.link-background {
+  background: var(--primary-color);
+}
+
+.program-background {
+  background: var(--primary-color);
+}
